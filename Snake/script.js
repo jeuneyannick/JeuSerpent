@@ -1,8 +1,8 @@
 window.onload = function(){
    
     var canvas = document.createElement('canvas'); // creation de l'élément canvas
-    canvas.width = 1000; 
-    canvas.height = 600; 
+    canvas.width = 1000; //Largeur
+    canvas.height = 600; //hauteur
     canvas.style.border = "1px solid"; // style des bordures
     document.body.appendChild(canvas);//Insertion du canvas dans le body
     
